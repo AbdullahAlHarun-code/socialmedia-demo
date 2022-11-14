@@ -69,7 +69,7 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'bookmarks.wsgi.application'
-
+CSRF_TRUSTED_ORIGINS=['https://8000-abdullahalh-socialmedia-1d5xpjzxitj.ws-eu75.gitpod.io']
 
 # Database
 # https://docs.djangoproject.com/en/4.1/ref/settings/#databases
